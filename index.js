@@ -37,7 +37,7 @@ app.use(boomErrorHandler);
 app.use(errorHandler);
 
 
-app.get("/api/products", (req, res) =>{
+app.get("/products", (req, res) =>{
   res.json({
     name: "producto 1",
     price: 1000
