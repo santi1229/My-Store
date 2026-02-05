@@ -1,8 +1,8 @@
 import express from 'express';
-import routerApi from '../my-store2026/routes/index.js';
+import routerApi from '/routes/index.js';
 import cors from 'cors';
 
-import { logErrors, errorHandler, boomErrorHandler } from '../my-store2026/middlewares/error.handler.js'
+import { logErrors, errorHandler, boomErrorHandler } from '/middlewares/error.handler.js'
 
 const app = express();
 const port = process.env.PORT || 3000;

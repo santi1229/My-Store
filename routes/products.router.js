@@ -1,7 +1,7 @@
 import express from 'express';
-import ProductService from '../services/product.service.js'; //Importo el servicio
-import validatorHandler from '../middlewares/validator.handler.js';
-import {createProductSchema, updateProductSchema, getProductSchema} from '../schemas/product.schema.js'
+import ProductService from '/services/product.service.js'; //Importo el servicio
+import validatorHandler from '/middlewares/validator.handler.js';
+import {createProductSchema, updateProductSchema, getProductSchema} from '/schemas/product.schema.js'
 
 const router = express.Router();
 const service = new ProductService(); //Creo una instancia del servicio
