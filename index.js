@@ -28,7 +28,6 @@ app.use(cors());
 
 app.get("/nueva-ruta", (req, res) =>{
   res.send("Nueva ruta!!!!!!!!!!!!")
-<<<<<<< HEAD
 });*/
 
 routerApi(app);
