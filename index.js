@@ -28,6 +28,7 @@ app.use(cors());
 
 app.get("/nueva-ruta", (req, res) =>{
   res.send("Nueva ruta!!!!!!!!!!!!")
+<<<<<<< HEAD
 });*/
 
 routerApi(app);
@@ -35,6 +36,14 @@ routerApi(app);
 app.use(logErrors);
 app.use(boomErrorHandler);
 app.use(errorHandler);
+
+
+app.get("/products", (req, res) =>{
+  res.json({
+    name: "producto 1",
+    price: 1000
+  })
+});
 
 app.listen(port,() =>{
   console.log("Servidor corriendo en el puerto " + port);
