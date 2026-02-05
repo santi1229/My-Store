@@ -1,8 +1,8 @@
 import express from 'express';
 
-import productsRouter from "./routes/products.router.js";
-import usersRouter from "./routes/users.router.js";
-import categoriesRouter from "./routes/categories.router.js";
+import productsRouter from "./products.router.js";
+import usersRouter from "./users.router.js";
+import categoriesRouter from "./categories.router.js";
 
 
 function routerApi(app){
